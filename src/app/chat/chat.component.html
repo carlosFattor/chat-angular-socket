@@ -1,0 +1,16 @@
+
+<div class="chat-container column wrap">
+    <div class="chat-user-name grow0">
+        <input type="text" #name [disabled]="blockUserName" name="user">
+        <button (click)="incommingUser(name.value)">connect</button>
+    </div>
+
+    <div class="chat-content-msgs">
+        <textarea #chatMsgs name="chat-msgs" id="chat-msgs" cols="30" rows="10"></textarea>
+    </div>
+
+    <div class="chat-input-msg">
+        <input type="text" #msg name="message">
+        <button (click)="sendMsg(msg.value)">send</button>
+    </div>
+</div>

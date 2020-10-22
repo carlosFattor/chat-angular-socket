@@ -1,0 +1,40 @@
+body {
+	font-family: monospace;
+	color: #333;
+}
+
+input {
+    width: auto;
+}
+
+.chat-container {
+    display: flex;
+    max-width: 400px;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+}
+
+.column {
+	flex-direction: column;
+}
+
+.chat-content-msgs {
+    flex: 1;
+	margin: 5px;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.chat-user-name {
+    flex: 1;
+	margin: 5px;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.chat-input-msg {
+    flex: 1;
+	margin: 5px;
+	text-align: center;
+	font-size: 1.5em;
+}
